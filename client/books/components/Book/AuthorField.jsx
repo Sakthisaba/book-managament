@@ -18,7 +18,7 @@ const AuthorField = ({ formData, setFormData, error, handleChange }) => {
         setLoading(true);
         try {
             const response = await fetch(
-                `http://localhost:3001/getauthors?query=${searchQuery}&page=${pageNumber}`
+                `https://book-managament.onrender.com/getauthors?query=${searchQuery}&page=${pageNumber}`
             ); 
             const data = await response.json();
             if (data.authors.length > 0) {
