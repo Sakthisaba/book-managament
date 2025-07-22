@@ -1,0 +1,26 @@
+[
+    {
+        "genre": "Fiction",
+        "id": "1"
+    },
+    {
+        "genre": "Non-Fiction",
+        "id": "2"
+    },
+    {
+        "genre": "Novel",
+        "id": "3"
+    },
+    {
+        "genre": "Historical Fiction",
+        "id": "5"
+    },
+    {
+        "genre": "Novel",
+        "id": "3"
+    },
+    {
+        "genre": "Rom-com",
+        "id": "5"
+    }
+]

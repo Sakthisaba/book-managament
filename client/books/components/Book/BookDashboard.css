@@ -1,0 +1,104 @@
+.SearchBar
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+} 
+.SearchBar input
+{
+  
+    float: right;
+    margin-right: 0; 
+    width: 75%;
+    height: 40px;
+    padding: 0 5px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+} 
+
+#searchText {
+    padding-left: 40px;
+    float: right;
+    margin-right: 0;
+    background: #eee url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+
+.tablecontainer{
+  overflow: auto !important;
+    height: 60vh !important;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: 'Poppins';
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+table th{
+    padding: 1.3vw;
+    height: 2.5vw;
+    text-align: left;
+}
+
+table td{
+
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 700px) {
+    table td {
+        font-size: 0.6rem !important;
+    }
+}
+
+
+table th .SortIcon{
+    width: 1vw;
+    height: 1vw;
+    cursor: pointer;
+    color: #bbbbbb;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+table th .SortIcon:hover{
+    color: #949494;
+}
+table th .SortIcon[sort='descending']{
+    transform: rotate(180deg);
+}
+
+
+.deleteicon{
+    color: rgb(241, 126, 118);
+    cursor: pointer;
+    width:1.1vw;
+    height: 1.1vw;
+    border-radius: 0.4vw;
+}
+
+.deleteicon:hover{
+    background-color: rgba(250, 169, 163, 0.248);
+}
+
+.editicon{
+    color: rgb(107, 215, 107);
+    cursor: pointer;
+    width:1.1vw;
+    height: 1.1vw;
+    border-radius: 0.4vw;
+}
+
+.editicon:hover{
+    background-color: rgba(107, 215, 107, 0.135);;
+}
