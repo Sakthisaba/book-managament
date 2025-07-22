@@ -1,4 +1,4 @@
-const backendUrl = 'https://book-managament.onrender.com';
+const backendUrl = 'https://book-managament.onrender.com/';
 
 export const Authenticate = async (formData) => {
 
