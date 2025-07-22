@@ -15,7 +15,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex
+;
+}
 
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined' !important;
