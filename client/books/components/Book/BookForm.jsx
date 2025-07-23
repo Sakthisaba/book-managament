@@ -189,7 +189,7 @@ export default function BookForm({}) {
                         Select Genre
                       </option>
                       {genre.map((data) => (
-                        <option key={data.id} value={data.id}>
+                        <option key={data.id} value={data.genre}>
                           {data.genre}
                         </option>
                       ))}
